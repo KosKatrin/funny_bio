@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    background-color: #FFE7EA;
+}
+
+.page-header {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    padding-top: 1px;
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    line-height: 55px;
+    padding-top: 30px;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+.page-main {
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+  
+.bio {
+    width: 270px;
+    padding: 10px;
+}
+
+.bio h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.photo {
+    width: 200px; 
+    padding: 10px;
+}
+
+.photo img {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.photo-caption {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #a2a8b4;
+}
+
+.page-footer {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 230px;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.contacts {
+    width: 160px;
+    margin-right: auto;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;text-decoration: none;
+}
+  
+.copyright {
+    width: 180px;  
+    margin-top: auto;
+    color: white;
+}
+  
+.logo {
+    width: 70px;
+    margin-left: 20px;
+}
